@@ -1,0 +1,5 @@
+Varias maneras de editar las cells de la tabla:
+    1-UITableViewController
+    2-UITableViewController + Edit
+    3-UIViewController + UITableView
+    4-UIViewController + UITableView + Edit
