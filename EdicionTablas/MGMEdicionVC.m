@@ -24,8 +24,6 @@ static NSInteger const kTotalCells = 10;
 	// Do any additional setup after loading the view.
     _totalCells = kTotalCells;
     
-    [_tablaView reloadData];
-
 }
 
 - (void)didReceiveMemoryWarning

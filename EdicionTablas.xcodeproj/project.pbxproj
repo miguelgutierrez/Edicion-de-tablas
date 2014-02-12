@@ -21,7 +21,6 @@
 		878200FC18A6953B0013CDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878200D818A6953A0013CDBE /* UIKit.framework */; };
 		8782010418A6953B0013CDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8782010218A6953B0013CDBE /* InfoPlist.strings */; };
 		8782010618A6953B0013CDBE /* EdicionTablasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782010518A6953B0013CDBE /* EdicionTablasTests.m */; };
-		8782011018A695510013CDBE /* leeme in Resources */ = {isa = PBXBuildFile; fileRef = 8782010F18A695510013CDBE /* leeme */; };
 		8782011318A695CD0013CDBE /* MGMEdicionTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782011218A695CD0013CDBE /* MGMEdicionTableVC.m */; };
 		8782011618A69A490013CDBE /* MGMEdicionConEditTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782011518A69A490013CDBE /* MGMEdicionConEditTableVC.m */; };
 		8782011918A69BF50013CDBE /* MGMEdicionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782011818A69BF50013CDBE /* MGMEdicionVC.m */; };
@@ -57,7 +56,6 @@
 		8782010118A6953B0013CDBE /* EdicionTablasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdicionTablasTests-Info.plist"; sourceTree = "<group>"; };
 		8782010318A6953B0013CDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8782010518A6953B0013CDBE /* EdicionTablasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdicionTablasTests.m; sourceTree = "<group>"; };
-		8782010F18A695510013CDBE /* leeme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = leeme; sourceTree = "<group>"; };
 		8782011118A695CD0013CDBE /* MGMEdicionTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMEdicionTableVC.h; sourceTree = "<group>"; };
 		8782011218A695CD0013CDBE /* MGMEdicionTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMEdicionTableVC.m; sourceTree = "<group>"; };
 		8782011418A69A490013CDBE /* MGMEdicionConEditTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMEdicionConEditTableVC.h; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		878200C818A6953A0013CDBE = {
 			isa = PBXGroup;
 			children = (
-				8782010F18A695510013CDBE /* leeme */,
 				878200DA18A6953A0013CDBE /* EdicionTablas */,
 				878200FF18A6953B0013CDBE /* EdicionTablasTests */,
 				878200D318A6953A0013CDBE /* Frameworks */,
@@ -252,7 +249,6 @@
 			files = (
 				878200EB18A6953A0013CDBE /* Main_iPad.storyboard in Resources */,
 				878200F318A6953B0013CDBE /* Images.xcassets in Resources */,
-				8782011018A695510013CDBE /* leeme in Resources */,
 				878200E818A6953A0013CDBE /* Main_iPhone.storyboard in Resources */,
 				878200DF18A6953A0013CDBE /* InfoPlist.strings in Resources */,
 			);
@@ -497,6 +493,7 @@
 				8782010B18A6953B0013CDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8782010C18A6953B0013CDBE /* Build configuration list for PBXNativeTarget "EdicionTablasTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +502,7 @@
 				8782010E18A6953B0013CDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
